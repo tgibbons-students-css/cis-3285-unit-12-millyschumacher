@@ -19,7 +19,8 @@ namespace ConsoleSample
             myEntity.Name = "Tom";
             Console.WriteLine("New entity ID: " + myEntity.ID.ToString());
             Console.WriteLine("New entity Name: " + myEntity.Name);
-
+            Console.WriteLine("Press enter to close.");
+            Console.ReadLine();
         }
     }
 }

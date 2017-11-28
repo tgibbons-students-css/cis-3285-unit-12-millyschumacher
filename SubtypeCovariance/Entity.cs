@@ -8,6 +8,10 @@ namespace SubtypeCovariance
 {
     public class Entity
     {
+        public Entity()
+        {
+        }
+
         public Entity(Guid newID)
         {
             ID = newID;
